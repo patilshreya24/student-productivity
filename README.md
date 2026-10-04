@@ -529,17 +529,6 @@ Contribution Guidelines
     Update documentation
 
 
-📊 Project Stats
-
-📞 Contact & Support
-
-Developers: N. Suchitra & Team
-
-Email: suchitraaradhya37@gmail.com@example.com
-
-GitHub: @suchiii29
-
-LinkedIn: www.linkedin.com/in/n-suchitra-242174306
 
 <div align="center">
 ⭐ If this project helped you, please give it a star!
