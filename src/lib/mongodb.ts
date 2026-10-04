@@ -1,0 +1,21 @@
+import mongoose from "mongoose";
+
+const MONGODB_URI = import.meta.env.VITE_MONGODB_URI || "";
+
+if (!MONGODB_URI) {
+  throw new Error("MongoDB URI not found");
+}
+
+export const connectDB = async () => {
+  try {
+    if (mongoose.connection.readyState >= 1) {
+      return;
+    }
+
+    await mongoose.connect(MONGODB_URI);
+
+    console.log("MongoDB Connected");
+  } catch (error) {
+    console.log(error);
+  }
+};
