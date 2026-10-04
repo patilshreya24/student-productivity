@@ -438,7 +438,7 @@ Git
 Step 1: Clone Repository
 bash
 
-git clone git clone https://github.com/patilshreya24/student-productivity.git
+git clone https://github.com/patilshreya24/student-productivity.git
 cd student-productivity
 
 Step 2: Install Dependencies
